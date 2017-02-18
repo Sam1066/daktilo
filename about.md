@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 subtitle: So here's what you probably don't want to know about me, I guess.
 permalink: /about/
 ---
