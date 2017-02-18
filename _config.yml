@@ -1,18 +1,17 @@
 # Site settings
-title: Daktilo
+title: samhastings.co.uk
 description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "http://samhastings.co.uk" # the base hostname & protocol for your site
 
 author:
-  fullname: Motaquillah Maddane
-  googleplus: https://www.google.com/+MotaquillahMaddane
-  github: kronik3r
-  twitter: electrik_frog
+  fullname: Sam Hastings
+  github: sam1066
+  twitter: sam1066_
   # disqus: your_disqus_forum_shortname
 
 # google_analytics: 'UA-XXXXXXXX-X'
