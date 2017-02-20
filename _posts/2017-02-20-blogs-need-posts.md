@@ -12,3 +12,8 @@ I have a couple of hobbies, though my newest and most expensive has to be analog
 I have a [Nikon F3][nikon f3], [Canon A1][canon a1] and a (broken)[Olympus Trip 35][olympus trip 35]. I love them dearly, although I am very much an amature anyway.
 
 I guess thats some stuff, I'm sure I'll make more posts about my hobbies I guess.
+
+[kronik3r]:https://github.com/kronik3r
+[nikon f3]:http://www.kenrockwell.com/nikon/f3.htm
+[canon a1]:https://en.wikipedia.org/wiki/Canon_A-1
+[olympus trip 35]:http://www.kenrockwell.com/olympus/trip-35.htm
