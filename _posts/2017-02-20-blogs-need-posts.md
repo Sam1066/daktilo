@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Blogs need posts"
 subtitle: "I guess I have to start somewhere"
 date:   2017-02-20
