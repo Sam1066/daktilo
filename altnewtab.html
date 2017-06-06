@@ -3,67 +3,88 @@
 <head>
     <title>New Tab</title>
 <style>
-div.heading {
-    margin-top: 5%;
-    margin-left: 10%;
-}
+
 div.container {
-    margin-left: 10%;
-    width: 600px;
-    border: 3px dashed #3a3a3a;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    /* [position] */
+    position: relative;
+    top: 125px;
+    left: 350px;
+    width: 200px;
+    height: 100px;
+}
+
+div.body {
+    /* [position] */
+    width: 550px;
+    margin-top: -20px;
+    line-height: 1;
+    /* [border & padding] */
+    border: 2px dashed #3a3a3a;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+     /* [columns] */
     -webkit-column-count: 3;
-    -webkit-column-gap: 40px;
+    -webkit-column-gap: 20px;
     -webkit-column-rule-style: dashed;
     -webkit-column-rule-color: #3a3a3a;
+    -webkit-column-rule-width: 2px;
+    -webkit-column-rule-
 
 }
 h1 {
+    /* [typeface & colour] */
     font-family: CyberpunkWaifus;
     src: url(http://sam1066.github.io/CyberpunkWaifus.ttf);    
     font-size: 55;
     color: #3a3a3a;
 }
 a {
+    /* [typeface & colour] */
     font-family: CyberpunkWaifus;
     src: url(http://sam1066.github.io/CyberpunkWaifus.ttf);    
-    font-size: 31;
+    font-size: 25;
     text-decoration: none;
-    color:#ddd;
+    color: #3a3a3a;
 }
 
 body {
+    /* [typeface & colour] */
     font-family: CyberpunkWaifus;
     src: url(http://sam1066.github.io/CyberpunkWaifus.ttf);    
     font-size: 15;
     text-decoration: none;
-    color:rgb(10, 10, 10);
-    background-color: #ffffff;
+    color: #3a3a3a;
+    /* [background] */
+    background-image: url(http://sam1066.github.io/beach.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
 }
 </style>
 </head>
 
 <body>
-    <div class="heading">
-        <h1>new tab</h1>
-    </div>
-    <div class="container">
+<div class="container">
+    <h1>new tab</h1>
+    <div class="body">
         <a href="https://www.instagram.com">instagram</a> <br>
         <a href="https://www.twitter.com">twitter</a> <br>
         <a href="https://www.reddit.com">reddit</a> <br>
-        <a href="https://www.ebay.co.uk">ebay</a> <br>
         <a href="https://www.flickr.com">flickr</a> <br>
         <a href="http://www.ffordes.co.uk">ffordes</a> <br>
-        <a href="http://www.casualphotophile.com">casual photophile</a> <br>
-        <a href="http://www.filmshooterscollective.com/film-photography-blog-index/">fsc</a> <br>
+        <a href="https://www.ebay.co.uk">ebay</a> <br>
+        <a href="http://www.amazon.co.uk">amazon</a> <br>
         <a href="http://www.wycameras.com">wy cameras</a> <br>
-        <a href="http://www.camerafilmphoto.com">camera film photo</a> <br>
+        <a href="https://www.netflix.com/browse">netflix</a> <br>
+        <a href="https://app.plex.tv/web/app#">plex</a> <br>
         <a href="https://www.engadget.com">engadget</a> <br>
+        <a href="https://www.bloomberg.com">bloomberg</a> <br>
+        <a href="http://www.bbc.co.uk/news">bbc news</a> <br>
         <a href="https://goo.gl/0K9TfA">office 365</a> <br>
         <a href="http://www.progresso.net">progresso</a> <br>
     </div>
+</div>    
 </body>
 </html>
