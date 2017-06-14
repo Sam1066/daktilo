@@ -16,8 +16,10 @@
 	    	document.getElementById("volume").innerHTML = makeBar(bar_val);
 		    if(bar_val < 20 && bar_val > 0) {
 			bar_val += Math.floor((Math.random() * 3) - 1);
+		    } else if (bar_val > 20) {
+			bar_val = 20;
 		    } else {
-			bar_val = 10;
+		        bar_val = 0;
 		    }
 
 	    }, 300);
