@@ -15,10 +15,12 @@
         $(document).ready(function() {
             var t = setInterval(function() {
 	    	document.getElementById("volume").innerHTML = makeBar(bar_val);
-		    if(bar_val < 20 && bar_val > 0) {
+		    if (bar_val < 20 && bar_val > 0) {
 			bar_val += Math.floor((Math.random() * 3) - 1);
+		    } else if (bar_val > 20) {
+			bar_val = 20;
 		    } else {
-			bar_val = 10;
+			bar_val = 0;
 		    }
 
 	    }, 300);
@@ -27,7 +29,7 @@
 
 <style>
 @font-face {
-    font-family: "VCR OSD Mono";
+    font-family: VCR OSD Mono;
     src: url(http://sam1066.github.io/newtab/VCR.ttf);    
 }
 	
