@@ -1,9 +1,8 @@
 <html>
-    <meta charset="utf-16">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-16">
 <head>
     <title>New Tab</title>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    
     <script>
 	var bar_val = 10;
 
@@ -15,12 +14,10 @@
         $(document).ready(function() {
             var t = setInterval(function() {
 	    	document.getElementById("volume").innerHTML = makeBar(bar_val);
-		    if (bar_val < 20 && bar_val > 0) {
+		    if(bar_val < 20 && bar_val > 0) {
 			bar_val += Math.floor((Math.random() * 3) - 1);
-		    } else if (bar_val > 20) {
-			bar_val = 20;
 		    } else {
-			bar_val = 0;
+			bar_val = 10;
 		    }
 
 	    }, 300);
@@ -29,8 +26,8 @@
 
 <style>
 @font-face {
-    font-family: VCR OSD Mono;
-    src: url(http://sam1066.github.io/newtab/VCR.ttf);    
+    font-family: "VCR OSD Mono";
+    src: url(http://site.samhastings.co.uk/newtab/VCR.woff) format("woff");    
 }
 	
 div.container {
@@ -50,6 +47,8 @@ div.body {
     /* [columns] */
     -webkit-column-count: 3;
     -webkit-column-gap: 20px;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
 }
 
 div#volume {
@@ -126,8 +125,8 @@ body {
     VOLUME: |||||||||-----------
 </div>
 <div class="fullscreen-bg">
-    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-        <source src="http://sam1066.github.io/newtab/static.mp4" type="video/mp4">
+    <video loop muted autoplay class="fullscreen-bg__video">
+        <source src="http://site.samhastings.co.uk/newtab/static.mp4" type="video/mp4">
     </video>
 </div>
 </body>
