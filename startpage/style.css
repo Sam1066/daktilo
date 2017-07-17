@@ -17,14 +17,10 @@ body{
 }
 
 .maincontainer {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transform: -webkit-translate(-50%, -50%);
-        transform: -moz-translate(-50%, -50%);
-        transform: -ms-translate(-50%, -50%);
-	width:860px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width:672px;
 	height:319px;
    	margin: auto;
 	background-color:transparent;
@@ -36,11 +32,11 @@ body{
 	border-color: #000000;
 	position: absolute;
 	top: -2px;
-        width: 536px;
+    	width: 536px;
 	height: 295px;
-        left: -134px;
-        right: 190px;
-        margin: auto;
+    	left: -2px;
+    	right: 190px;
+    	margin: auto;
 	background-color:#FFFFFF;
 	text-align:center;
 }
@@ -48,6 +44,21 @@ body{
 .maincontents {
 	width:100%;
 	height:100%;
+}
+
+.button {
+	width:12px;
+	height:12px;
+	float: left;
+	margin-right:2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	background-color:#ffffff;
+}
+
+.button:hover {
+	background-color:#aaaaaa!important;
 }
 
 .searchbar {
@@ -182,3 +193,4 @@ a:hover {
 .clink:hover{
 	text-decoration:underline;
 }
+
