@@ -74,7 +74,7 @@ body{
 .searchinput {
 	line-height:17px;
 	height:17px;
-	top:-1px;
+	top:0px;
 	position:relative;
 	margin-left:1px;
 	margin-right:1px;
