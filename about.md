@@ -1,12 +1,12 @@
 ---
 layout: page
 title: about
-subtitle: so here's what you probably don't want to know about me, i guess.
+subtitle: so here's a few things about me, i guess.
 permalink: /about/
 ---
-Hi. I'm a Networking student/apprentice who spends his spare time playing with cameras, or I'm on Netflix.
+Hi. I'm a Cross-Functional Apprentice working at Cisco in the United Kingdom.
 
-I've got 4 cameras now: 
+In my spare time I like to take photos usign analog film cameras. I've got 4 now: 
 * A [Nikon F3][nikon f3]
 * A [Canon A1][canon a1]
 * An [Olympus Trip 35][olympus trip 35]
