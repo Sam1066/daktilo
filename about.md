@@ -4,9 +4,9 @@ title: about
 subtitle: so here's a few things about me, i guess.
 permalink: /about/
 ---
-Hi. I'm a Cross-Functional Apprentice working at Cisco in the United Kingdom.
+Hi. I'm an Apprentice at Cisco aspiring to become a Systems Engineer at Cisco Meraki
 
-In my spare time I like to take photos usign analog film cameras. I've got 4 now: 
+In my spare time I like to take photos using analog film cameras. I've got 4 now: 
 * A [Nikon F3][nikon f3]
 * A [Canon A1][canon a1]
 * An [Olympus Trip 35][olympus trip 35]
